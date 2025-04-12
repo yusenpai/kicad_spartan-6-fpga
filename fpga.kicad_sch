@@ -1,0 +1,317 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e31df699-af9e-4ffd-95aa-891df631d77b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 101.6 114.3)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28e17ba0-f4b0-4326-acc9-6577fa10b9bd")
+		(property "Sheetname" "Camera"
+			(at 101.6 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cam.kicad_sch"
+			(at 101.6 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 76.2)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30673782-9ccc-4ddc-a7ec-15380a608665")
+		(property "Sheetname" "HDMI"
+			(at 101.6 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi.kicad_sch"
+			(at 101.6 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 38.1)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39af5935-6ed4-4c2b-8a53-1f999df92d0e")
+		(property "Sheetname" "FPGA Bank 0 & 1"
+			(at 63.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank01.kicad_sch"
+			(at 63.5 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 76.2)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a60f4f5-84f4-4479-aa4d-f32cbc99035a")
+		(property "Sheetname" "PCIe Custom Connector"
+			(at 139.7 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie.kicad_sch"
+			(at 139.7 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 114.3)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd7de54a-a596-44a9-941f-402c92f568e8")
+		(property "Sheetname" "Power"
+			(at 63.5 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 63.5 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 38.1)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9207da6-506a-4c52-8466-0679f6a524b5")
+		(property "Sheetname" "FPGA Configuration"
+			(at 139.7 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "config.kicad_sch"
+			(at 139.7 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 76.2)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e327a0d6-6542-4e8d-b4b6-1103069c6f6b")
+		(property "Sheetname" "Memory"
+			(at 63.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dram.kicad_sch"
+			(at 63.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 38.1)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea6aa04a-799e-40e6-b84f-c3887a5f7996")
+		(property "Sheetname" "FPGA Bank 2 & 3"
+			(at 101.6 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank23.kicad_sch"
+			(at 101.6 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fpga"
+				(path "/e31df699-af9e-4ffd-95aa-891df631d77b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
